@@ -1,0 +1,10 @@
+.AppPreview {
+    border: .5rem solid #89023E;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: start
+}
+
+p {
+    margin-bottom: 0;
+}

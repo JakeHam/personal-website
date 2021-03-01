@@ -1,3 +1,5 @@
+import AppPreview from './AppPreview';
+
 const Homepage = () => {
   return (
     <div className="Homepage">
@@ -8,6 +10,11 @@ const Homepage = () => {
       <hr />
       <main>
         <h3>My Apps</h3>
+        <AppPreview
+          imageLink="https://via.placeholder.com/64"
+          title="Mock App"
+          description="This is a mock application. I'm creating it to test to see if this media preview works correctly."
+        />
       </main>
     </div>
   );
