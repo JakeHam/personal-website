@@ -1,4 +1,6 @@
 import AppPreview from './AppPreview';
+import pkmnLogo from './images/pkmn_card_gen.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Homepage = () => {
   return (
@@ -11,9 +13,10 @@ const Homepage = () => {
       <main>
         <h3>My Apps</h3>
         <AppPreview
-          imageLink="https://via.placeholder.com/64"
-          title="Mock App"
-          description="This is a mock application. I'm creating it to test to see if this media preview works correctly."
+          appLink='/pkmn'
+          imageLink={pkmnLogo}
+          title="Pokemon Card Generator"
+          description="A quick little Pokémon card generator."
         />
       </main>
     </div>

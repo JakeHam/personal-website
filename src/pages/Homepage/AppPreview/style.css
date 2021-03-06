@@ -5,6 +5,10 @@
     text-align: start
 }
 
+.AppPreview:hover {
+    cursor: pointer;
+}
+
 p {
     margin-bottom: 0;
 }

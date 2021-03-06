@@ -1,9 +1,16 @@
 import { Media } from 'react-bootstrap';
-import './AppPreview.css';
+import { useHistory } from 'react-router-dom';
+import './style.css';
 
-const AppPreview = ({ imageLink, title, description }) => {
+const AppPreview = ({ appLink, imageLink, title, description }) => {
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push(appLink)
+  }
+
   return (
-    <div className="AppPreview">
+    <div className="AppPreview" onClick={handleClick}>
       <Media>
         <img
           width={64}
