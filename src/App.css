@@ -1,23 +1,26 @@
+:root {
+  --main-bg-color: #E5DAC9;
+  --main-overlay-color: #F7F2EA;
+  --secondary-color: #859186;
+  --tertiary-color: #99A196;
+  --quaternary-color: #8A918A;
+  --navigation-color: #1D3728;
+}
+
 .Homepage {
   text-align: center;
-  background-color: #2E3532;
+  background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #C7CEDB;
+  color: var(--navigation-color);
 }
 
 .Homepage-header {
   min-height: 20vh;
-}
-
-hr {
-  background-color: #D36135;
-  min-width: 65vw;
-  min-height: 2px;
-  border: none;
+  margin: 3rem;
 }
 
 main {
@@ -30,8 +33,4 @@ h1 {
 
 h2 {
   margin-top: 0;
-}
-
-.App-link {
-  color: #61dafb;
 }
